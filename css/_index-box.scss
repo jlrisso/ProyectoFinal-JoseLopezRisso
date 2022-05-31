@@ -20,6 +20,13 @@ CAJA PARA SUBSCRIBIRSE EN EL INDEX
             font-size: 1.1em;
             color: white;
             width: 50%;
+
+            @include tablet {
+              width: 62%;
+            }
+            @include mobile {
+              width: 100%;
+            }
         }
 
         .email-header {
@@ -56,8 +63,19 @@ CAJA PARA SUBSCRIBIRSE EN EL INDEX
 
 
                 }
+                @include mobile{
+                  flex-direction: column;
+                }
 
             }
+            @include tablet {
+              width: 58%;
+             
+            }
+            @include mobile{
+              width: 100%;
+            }
+            
 
 
         }

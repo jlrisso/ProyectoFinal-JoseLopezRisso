@@ -34,6 +34,12 @@ footer {
             &:hover {
                 opacity: .6;
             }
+            @include mobile {
+                width: 45px;
+                margin: 8px 0;
+            }
+
+
         }
 
         .fa-facebook {
@@ -87,11 +93,22 @@ footer {
                     opacity: .6;
                 }
             }
+            @include mobile {
+                width:100%;
+                padding: 0;
+                margin: 1em 0;
+                text-align: center;
+            }
+
+
         }
 
         .footer-vseparator {
             width: 1px;
             background: #757575;
+            @include mobile {
+                display: none;
+            }
         }
 
         .footer-form {
@@ -139,12 +156,26 @@ footer {
                     &:hover {
                         opacity: .6;
                     }
+                    @include mobile{
+                       margin-top: 1em;
+                    }
 
                 }
-
+                
             }
+            @include mobile{
+                padding: 0;
+                width: 100%;
+                margin: 1em 0 3.5em 0;
+            }
+           
 
         }
+        @include mobile{
+            flex-direction: column;
+        }
+
+
     }
 
     .footer-bottom-section {
@@ -171,6 +202,10 @@ footer {
             }
         }
 
+        @include mobile{
+            flex-direction: column;
+            align-items: center;
+        }
 
     }
 

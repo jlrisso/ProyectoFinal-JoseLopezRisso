@@ -1,5 +1,6 @@
 
 @import "variables";
+@import "mixins";
 @import "init";
 @import "bootstrap-menu";
 @import "index-box";
@@ -15,22 +16,9 @@
 
 
 
-/************************************
-RESPONSIVE
-************************************
-VER ARREGLOS
+/* MEDIA QUERIES 
 
-1FR 1FR 0.6FR
-
-ASIDE MARGIN
-2.5 0 0 0
-
-*/
-
-
-
-
-@media screen and (min-width: 735px) and (max-width: 1105px){
+@include tablet{
 
     .sub-container{
         grid-template-columns: 1fr 1fr;
@@ -154,7 +142,5 @@ ASIDE MARGIN
     }
 
 
-
-}
-
-
+    
+}*/

@@ -15,13 +15,36 @@ ARTICULOS
         /*margin-right: 2.7em;*/
         margin-right: 1.8em;
 
+        .figure-container img{
+            @include mobile {
+                width: 100%;
+            }
+        }
+
         .date-of-the-article {
             font-size: 0.8em;
             margin: 1rem 0;
         }
         .article-text-container {
             margin-right: 2em;
+            @include mobile {
+                margin-right: 0;
+            }
+
+        }
+        @include mobile {
+            margin-right: 0;
         }
 
     }
+    
+    @include tablet {
+        width: 95%;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @include mobile {
+        grid-template-columns: 1fr;
+    }
+
 }

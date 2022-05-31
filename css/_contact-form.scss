@@ -31,6 +31,9 @@ FORMULARIO DE CONTACTO
             
             .divided {
                 width: 49.5%;
+                @include mobile {
+                    width: 100%;
+                }
             }
 
             /* Ancho de los campos que ocupan una sola columna */

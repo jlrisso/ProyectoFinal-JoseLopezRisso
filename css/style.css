@@ -75,6 +75,18 @@ body .text-container {
   margin-right: 3.8em;
 }
 
+@media (min-width: 735px) and (max-width: 1105px) {
+  body .text-container {
+    margin-right: 0.8em;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 734px) {
+  body .text-container {
+    margin-right: 0;
+  }
+}
+
 /********************************
 MENU CON BOOTSTRAP
 *********************************/
@@ -122,6 +134,18 @@ CAJA PARA SUBSCRIBIRSE EN EL INDEX
   width: 50%;
 }
 
+@media (min-width: 735px) and (max-width: 1105px) {
+  .subscribe .subscribe-container .header-text {
+    width: 62%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 734px) {
+  .subscribe .subscribe-container .header-text {
+    width: 100%;
+  }
+}
+
 .subscribe .subscribe-container .email-header {
   width: 45%;
   /* Contenedor de Elementos de Formulario de Index (Header)*/
@@ -159,6 +183,27 @@ CAJA PARA SUBSCRIBIRSE EN EL INDEX
 
 .subscribe .subscribe-container .email-header .subscribe-button #subscribe:hover {
   opacity: .6;
+}
+
+@media (min-width: 300px) and (max-width: 734px) {
+  .subscribe .subscribe-container .email-header .subscribe-button {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 735px) and (max-width: 1105px) {
+  .subscribe .subscribe-container .email-header {
+    width: 58%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 734px) {
+  .subscribe .subscribe-container .email-header {
+    width: 100%;
+  }
 }
 
 /************************************
@@ -230,7 +275,20 @@ CONTENEDORES
       grid-template-columns: 1fr 1fr 0.8fr;
       grid-template-areas: "main main aside";
   padding: 0 1em;
-  /*TEST*/
+}
+
+@media (min-width: 735px) and (max-width: 1105px) {
+  .sub-container {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 734px) {
+  .sub-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
 }
 
 main {
@@ -246,6 +304,18 @@ main .page-title {
   padding: 30px 0;
   margin-top: 2.5em;
   margin-right: 3.8em;
+}
+
+@media (min-width: 735px) and (max-width: 1105px) {
+  main .page-title {
+    margin-right: 0.8em;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 734px) {
+  main .page-title {
+    margin-right: 0;
+  }
 }
 
 .menu-border {
@@ -273,6 +343,12 @@ ARTICULOS
   margin-right: 1.8em;
 }
 
+@media (min-width: 300px) and (max-width: 734px) {
+  #article-list .article-container .figure-container img {
+    width: 100%;
+  }
+}
+
 #article-list .article-container .date-of-the-article {
   font-size: 0.8em;
   margin: 1rem 0;
@@ -280,6 +356,33 @@ ARTICULOS
 
 #article-list .article-container .article-text-container {
   margin-right: 2em;
+}
+
+@media (min-width: 300px) and (max-width: 734px) {
+  #article-list .article-container .article-text-container {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 734px) {
+  #article-list .article-container {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 735px) and (max-width: 1105px) {
+  #article-list {
+    width: 95%;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 734px) {
+  #article-list {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
 }
 
 /*******************************
@@ -334,6 +437,18 @@ aside #aside-second {
 aside #aside-second .aside-text {
   font-size: 0.8em;
   margin: 0px;
+}
+
+@media (min-width: 735px) and (max-width: 1105px) {
+  aside {
+    display: none;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 734px) {
+  aside {
+    display: none;
+  }
 }
 
 /*
@@ -421,6 +536,13 @@ footer .footer-top-section .fa:hover {
   opacity: .6;
 }
 
+@media (min-width: 300px) and (max-width: 734px) {
+  footer .footer-top-section .fa {
+    width: 45px;
+    margin: 8px 0;
+  }
+}
+
 footer .footer-top-section .fa-facebook {
   color: white;
 }
@@ -479,9 +601,24 @@ footer .footer-middle-section .footer-links a:hover {
   opacity: .6;
 }
 
+@media (min-width: 300px) and (max-width: 734px) {
+  footer .footer-middle-section .footer-links {
+    width: 100%;
+    padding: 0;
+    margin: 1em 0;
+    text-align: center;
+  }
+}
+
 footer .footer-middle-section .footer-vseparator {
   width: 1px;
   background: #757575;
+}
+
+@media (min-width: 300px) and (max-width: 734px) {
+  footer .footer-middle-section .footer-vseparator {
+    display: none;
+  }
 }
 
 footer .footer-middle-section .footer-form {
@@ -544,6 +681,29 @@ footer .footer-middle-section .footer-form .footer-form-inputs input[type=submit
   opacity: .6;
 }
 
+@media (min-width: 300px) and (max-width: 734px) {
+  footer .footer-middle-section .footer-form .footer-form-inputs input[type=submit] {
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 734px) {
+  footer .footer-middle-section .footer-form {
+    padding: 0;
+    width: 100%;
+    margin: 1em 0 3.5em 0;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 734px) {
+  footer .footer-middle-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 footer .footer-bottom-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -572,6 +732,18 @@ footer .footer-bottom-section .privacy a {
 
 footer .footer-bottom-section .privacy a:hover {
   opacity: .6;
+}
+
+@media (min-width: 300px) and (max-width: 734px) {
+  footer .footer-bottom-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 /************************************
@@ -608,6 +780,12 @@ FORMULARIO DE CONTACTO
 
 #formulario .form-style li .divided {
   width: 49.5%;
+}
+
+@media (min-width: 300px) and (max-width: 734px) {
+  #formulario .form-style li .divided {
+    width: 100%;
+  }
 }
 
 #formulario .form-style li .full-long {
@@ -647,125 +825,132 @@ FORMULARIO DE CONTACTO
           box-shadow: none;
 }
 
-/************************************
-RESPONSIVE
-************************************
-VER ARREGLOS
+/* MEDIA QUERIES 
 
-1FR 1FR 0.6FR
+@include tablet{
 
-ASIDE MARGIN
-2.5 0 0 0
-
-*/
-@media screen and (min-width: 735px) and (max-width: 1105px) {
-  .sub-container {
-    -ms-grid-columns: 1fr 1fr;
+    .sub-container{
         grid-template-columns: 1fr 1fr;
-  }
-  .figure-container img {
-    width: 100%;
-  }
-  .article-text-container {
-    margin-right: 0;
-  }
-  aside {
-    display: none;
-  }
-  .header-text,
-  .email-header {
-    width: 70%;
-  }
-  .page-title {
-    text-align: center;
-  }
-  footer .footer-middle-section .footer-form .footer-form-inputs {
-    margin-right: 0;
-  }
+    }
+   
+    .figure-container img{
+        width: 100%;
+    }
+
+    .article-text-container{
+        margin-right: 0;
+    }
+
+    aside{
+        display: none;
+    }
+
+    .header-text,
+    .email-header{
+        width: 70%;
+    }
+    
+    .page-title{
+        text-align: center;
+    }
+
+    footer .footer-middle-section .footer-form .footer-form-inputs{
+        margin-right: 0;
+    }
+
+
 }
 
-@media screen and (min-width: 300px) and (max-width: 734px) {
-  .sub-container {
-    -ms-grid-columns: 1fr;
+@media screen and (min-width: 300px) and (max-width: 734px){
+
+
+    .sub-container{
         grid-template-columns: 1fr;
-  }
-  .text-container {
-    padding-right: 0;
-    margin-right: 0;
-  }
-  #article-list {
-    -ms-grid-columns: 1fr;
+    }
+
+    .text-container{
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    #article-list {
         grid-template-columns: 1fr;
-  }
-  .article-container {
-    width: 100%;
-  }
-  .article-text-container {
-    margin-right: 0;
-  }
-  aside {
-    display: none;
-  }
-  .page-title {
-    text-align: center;
-  }
-  .subscribe {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .subscribe-button {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .header-text,
-  .email-header {
-    width: 100%;
-  }
-  .figure-container img {
-    width: 100%;
-  }
-  .footer-middle-section {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .footer-middle-section:first-child {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .footer-vseparator {
-    display: none;
-  }
-  footer .footer-middle-section .footer-links {
-    width: 100%;
-    -webkit-column-gap: 1em;
-            column-gap: 1em;
-    text-align: center;
-    padding: 2.5em 0;
-  }
-  footer .footer-middle-section .footer-form {
-    width: 100%;
-    padding: 2.5em 0;
-  }
-  footer .footer-middle-section .footer-form .footer-form-inputs {
-    margin-right: 0em;
-  }
-  .footer-bottom-section {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  #formulario .form-style li .divided {
-    width: 100%;
-  }
-}
+    }
+
+    .article-container{
+        width: 100%;
+    }
+
+    .article-text-container{
+        margin-right: 0;
+    }
+
+    aside{
+        display: none;
+    }
+
+    .page-title{
+        text-align: center;
+    }
+    
+    .subscribe{
+        justify-content: center;
+    }
+
+    .subscribe-button{
+        flex-direction: column;
+    }
+
+    .header-text,
+    .email-header{
+        width: 100%;
+    }
+
+    
+    .figure-container img{
+        width: 100%;
+    }
+
+
+    .footer-middle-section{
+        flex-direction: column;
+        
+    }
+
+    .footer-middle-section:first-child{
+        align-items: center;
+    }
+
+    .footer-vseparator{
+        display: none;
+    }
+
+    footer .footer-middle-section .footer-links{
+        width: 100%;
+        column-gap:1em;
+        text-align: center;
+        padding: 2.5em 0;
+    }
+
+    footer .footer-middle-section .footer-form {
+        width: 100%;
+        padding: 2.5em 0;
+    }
+
+    footer .footer-middle-section .footer-form .footer-form-inputs{
+        margin-right: 0em;
+    }
+
+    .footer-bottom-section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #formulario .form-style li .divided{
+        width: 100%;
+    }
+
+
+    
+}*/
 /*# sourceMappingURL=style.css.map */
