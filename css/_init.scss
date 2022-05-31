@@ -2,9 +2,11 @@
 SETEOS GENERALES
 *********************************/
 @charset "UTF-8";
+
 html {
     box-sizing: border-box;
 }
+
 * {
     box-sizing: inherit;
     margin: 0;
@@ -27,7 +29,7 @@ body {
         color: black;
         margin-bottom: 0;
     }
-    
+
     h2 {
         /*font-family: 'Hind', sans-serif;*/
         font-family: $ff-secondary;
@@ -35,8 +37,8 @@ body {
         font-size: 1.2em;
         color: #222;
     }
-    
-    
+
+
     h3 {
         /*font-family:'Jost', sans-serif;*/
         font-family: $ff-tertiary;
@@ -51,21 +53,33 @@ body {
         margin: 0;
         padding: 0;
     }
-    
-    p{
+
+    p {
         text-align: justify;
     }
-    
-    input:focus{
+
+    input:focus {
         box-shadow: none;
         outline: none;
     }
+
+
+    /*******************************
+    CONTACT & ABOUT HTMLs 
+    ********************************/
+
+
+
+    .about-us {
+        margin: 2.5em auto 0 auto;
+    }
+
+    .text-container {
+        margin-right: 3.8em;
+    }
+
+
+
+
+
 }
-
-
-
-
-
-
-
-

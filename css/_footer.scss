@@ -109,7 +109,7 @@ footer {
             .footer-form-inputs {
                 display: flex;
                 flex-direction: column;
-                margin-right: 5em;
+                
 
                 input[type=text],
                 input[type=email] {
@@ -134,6 +134,7 @@ footer {
                     padding: 10px 15px 10px 15px;
                     border: 1px solid white;
                     color: #fff;
+                    margin-top: 2em;
 
                     &:hover {
                         opacity: .6;
