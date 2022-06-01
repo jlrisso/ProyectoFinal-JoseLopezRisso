@@ -7,13 +7,14 @@ ARTICULOS
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 2.5em auto 3.5em auto;
-    column-gap: 1em;
+    /*column-gap: 1em;*/
 
     /* Contenedor de Articulo Individual */
     .article-container {
         margin-bottom: 2em;
         /*margin-right: 2.7em;*/
-        margin-right: 1.8em;
+        /*margin-right: 1.8em;*/
+        margin-right: 0.5em;
 
         .figure-container img{
             @include mobile {
@@ -26,12 +27,19 @@ ARTICULOS
             margin: 1rem 0;
         }
         .article-text-container {
-            margin-right: 2em;
+            margin-right: 4em;
+            @include tablet{
+                width: 326px;
+            }
             @include mobile {
                 margin-right: 0;
             }
 
         }
+        @include tablet{
+            margin-right: 0;
+        }
+
         @include mobile {
             margin-right: 0;
         }
@@ -39,8 +47,9 @@ ARTICULOS
     }
     
     @include tablet {
-        width: 95%;
         grid-template-columns: 1fr 1fr;
+        width: 740px;
+       
     }
 
     @include mobile {

@@ -131,7 +131,7 @@ CAJA PARA SUBSCRIBIRSE EN EL INDEX
 .subscribe .subscribe-container .header-text {
   font-size: 1.1em;
   color: white;
-  width: 50%;
+  width: 45%;
 }
 
 @media (min-width: 735px) and (max-width: 1105px) {
@@ -147,7 +147,7 @@ CAJA PARA SUBSCRIBIRSE EN EL INDEX
 }
 
 .subscribe .subscribe-container .email-header {
-  width: 45%;
+  width: 40%;
   /* Contenedor de Elementos de Formulario de Index (Header)*/
 }
 
@@ -196,7 +196,7 @@ CAJA PARA SUBSCRIBIRSE EN EL INDEX
 
 @media (min-width: 735px) and (max-width: 1105px) {
   .subscribe .subscribe-container .email-header {
-    width: 58%;
+    width: 60%;
   }
 }
 
@@ -332,15 +332,15 @@ ARTICULOS
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   margin: 2.5em auto 3.5em auto;
-  -webkit-column-gap: 1em;
-          column-gap: 1em;
+  /*column-gap: 1em;*/
   /* Contenedor de Articulo Individual */
 }
 
 #article-list .article-container {
   margin-bottom: 2em;
   /*margin-right: 2.7em;*/
-  margin-right: 1.8em;
+  /*margin-right: 1.8em;*/
+  margin-right: 0.5em;
 }
 
 @media (min-width: 300px) and (max-width: 734px) {
@@ -355,11 +355,23 @@ ARTICULOS
 }
 
 #article-list .article-container .article-text-container {
-  margin-right: 2em;
+  margin-right: 4em;
+}
+
+@media (min-width: 735px) and (max-width: 1105px) {
+  #article-list .article-container .article-text-container {
+    width: 326px;
+  }
 }
 
 @media (min-width: 300px) and (max-width: 734px) {
   #article-list .article-container .article-text-container {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 735px) and (max-width: 1105px) {
+  #article-list .article-container {
     margin-right: 0;
   }
 }
@@ -372,9 +384,9 @@ ARTICULOS
 
 @media (min-width: 735px) and (max-width: 1105px) {
   #article-list {
-    width: 95%;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
+    width: 740px;
   }
 }
 
@@ -824,133 +836,4 @@ FORMULARIO DE CONTACTO
   -webkit-box-shadow: none;
           box-shadow: none;
 }
-
-/* MEDIA QUERIES 
-
-@include tablet{
-
-    .sub-container{
-        grid-template-columns: 1fr 1fr;
-    }
-   
-    .figure-container img{
-        width: 100%;
-    }
-
-    .article-text-container{
-        margin-right: 0;
-    }
-
-    aside{
-        display: none;
-    }
-
-    .header-text,
-    .email-header{
-        width: 70%;
-    }
-    
-    .page-title{
-        text-align: center;
-    }
-
-    footer .footer-middle-section .footer-form .footer-form-inputs{
-        margin-right: 0;
-    }
-
-
-}
-
-@media screen and (min-width: 300px) and (max-width: 734px){
-
-
-    .sub-container{
-        grid-template-columns: 1fr;
-    }
-
-    .text-container{
-        padding-right: 0;
-        margin-right: 0;
-    }
-
-    #article-list {
-        grid-template-columns: 1fr;
-    }
-
-    .article-container{
-        width: 100%;
-    }
-
-    .article-text-container{
-        margin-right: 0;
-    }
-
-    aside{
-        display: none;
-    }
-
-    .page-title{
-        text-align: center;
-    }
-    
-    .subscribe{
-        justify-content: center;
-    }
-
-    .subscribe-button{
-        flex-direction: column;
-    }
-
-    .header-text,
-    .email-header{
-        width: 100%;
-    }
-
-    
-    .figure-container img{
-        width: 100%;
-    }
-
-
-    .footer-middle-section{
-        flex-direction: column;
-        
-    }
-
-    .footer-middle-section:first-child{
-        align-items: center;
-    }
-
-    .footer-vseparator{
-        display: none;
-    }
-
-    footer .footer-middle-section .footer-links{
-        width: 100%;
-        column-gap:1em;
-        text-align: center;
-        padding: 2.5em 0;
-    }
-
-    footer .footer-middle-section .footer-form {
-        width: 100%;
-        padding: 2.5em 0;
-    }
-
-    footer .footer-middle-section .footer-form .footer-form-inputs{
-        margin-right: 0em;
-    }
-
-    .footer-bottom-section{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #formulario .form-style li .divided{
-        width: 100%;
-    }
-
-
-    
-}*/
 /*# sourceMappingURL=style.css.map */
