@@ -343,6 +343,10 @@ ARTICULOS
   margin-right: 0.5em;
 }
 
+#article-list .article-container .figure-container img:hover {
+  opacity: .6;
+}
+
 @media (min-width: 300px) and (max-width: 734px) {
   #article-list .article-container .figure-container img {
     width: 100%;
@@ -356,6 +360,16 @@ ARTICULOS
 
 #article-list .article-container .article-text-container {
   margin-right: 4em;
+}
+
+#article-list .article-container .article-text-container a {
+  text-decoration: none;
+}
+
+#article-list .article-container .article-text-container a:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
 }
 
 @media (min-width: 735px) and (max-width: 1105px) {

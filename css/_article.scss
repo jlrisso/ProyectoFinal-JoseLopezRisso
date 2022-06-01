@@ -17,6 +17,11 @@ ARTICULOS
         margin-right: 0.5em;
 
         .figure-container img{
+            &:hover{
+                opacity: .6;
+            }
+            
+
             @include mobile {
                 width: 100%;
             }
@@ -28,6 +33,15 @@ ARTICULOS
         }
         .article-text-container {
             margin-right: 4em;
+
+            a{
+                text-decoration: none;
+                &:hover{
+                    color:black;
+                    text-decoration: underline;
+                    text-decoration-thickness: 2px;
+                }
+            }
             @include tablet{
                 width: 326px;
             }
