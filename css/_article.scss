@@ -34,6 +34,10 @@ ARTICULOS
         .article-text-container {
             margin-right: 4em;
 
+            .text{
+                text-align: left;
+            }
+
             a{
                 text-decoration: none;
                 &:hover{
@@ -42,6 +46,9 @@ ARTICULOS
                     text-decoration-thickness: 2px;
                 }
             }
+
+
+
             @include tablet{
                 width: 326px;
             }

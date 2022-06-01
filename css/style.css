@@ -110,7 +110,8 @@ CAJA PARA SUBSCRIBIRSE EN EL INDEX
 *********************************/
 /* Fondo de pantalla de la caja*/
 .subscribe {
-  background: url("../images/subscribe.png");
+  /*background: url("../images/subscribe.png");*/
+  background: url("../images/subscribe-2.png");
   background-repeat: no-repeat;
   background-size: cover;
   /* Contenedor de la caja*/
@@ -360,6 +361,10 @@ ARTICULOS
 
 #article-list .article-container .article-text-container {
   margin-right: 4em;
+}
+
+#article-list .article-container .article-text-container .text {
+  text-align: left;
 }
 
 #article-list .article-container .article-text-container a {
