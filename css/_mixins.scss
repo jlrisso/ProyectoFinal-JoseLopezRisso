@@ -1,3 +1,4 @@
+/* MEDIA QUERIES*/
 $breakpoints: (
     "desktop-width": 1105px,
     "tablet-width": 735px,
@@ -13,5 +14,16 @@ $breakpoints: (
 @mixin mobile {
     @media (min-width: map-get($breakpoints,"mobile-width")) and (max-width: (map-get($breakpoints,"tablet-width")- 1px) ) {
         @content;
+    }
+}
+
+/* SET FAV BACKGROUND COLOR */
+$media-list:facebook,twitter,google,instagram;
+
+@mixin set-fav-bg-color($my-list, $color){
+    @each $item in $my-list{
+        .fa-#{$item}{
+            color:$color;
+        }
     }
 }

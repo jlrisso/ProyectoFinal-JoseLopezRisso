@@ -1,6 +1,8 @@
 /* COLORES */
 /* FUENTES */
 /* SITE MAX WIDTH */
+/* MEDIA QUERIES*/
+/* SET FAV BACKGROUND COLOR */
 /********************************
 SETEOS GENERALES
 *********************************/
@@ -542,6 +544,23 @@ footer .footer-top-section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  /*
+        .fa-facebook {
+            color: white;
+
+        }
+
+        .fa-twitter {
+            color: white;
+        }
+
+        .fa-google {
+            color: white;
+        }
+
+        .fa-instagram {
+            color: white;
+        }*/
 }
 
 footer .footer-top-section .footer-my-name {
