@@ -187,11 +187,15 @@ footer {
         align-items: baseline;
         gap: 3em;
 
-        .copyrights {
+        .copyrights a{
             font-size: 0.8em;
-            color: #cccccc;
-        }
+            color: burlywood;
+            text-decoration: none;
+            &:hover{
+                opacity: 0.6;
+            }
 
+        }
 
         .privacy a {
             text-decoration: none;

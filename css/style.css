@@ -730,9 +730,14 @@ footer .footer-bottom-section {
   gap: 3em;
 }
 
-footer .footer-bottom-section .copyrights {
+footer .footer-bottom-section .copyrights a {
   font-size: 0.8em;
-  color: #cccccc;
+  color: burlywood;
+  text-decoration: none;
+}
+
+footer .footer-bottom-section .copyrights a:hover {
+  opacity: 0.6;
 }
 
 footer .footer-bottom-section .privacy a {
