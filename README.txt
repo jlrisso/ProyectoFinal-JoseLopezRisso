@@ -20,7 +20,7 @@ con estrategias para el Trading.
 
 5) ACERCA: Pagina con una descripcion personal y del Blog.
 
-
+6) UN BONUS EXTRA (leer mas abajo)
 
 ******************************************
 ESTRUCTURA DEL SITIO // LAYOUT
@@ -32,7 +32,7 @@ La estructura del sitio -que se repite en cada pagina- consta de:
 3- Una seccion principal o main.
 4- Un sidebar con enlaces varios
 5- Un footer 
-6- Un BONUS EXTRA (ver mas abajo!)
+
 
 ******************************************
 TECNOLOGÍAS APLICADAS Y/O UTILIZADAS
@@ -73,6 +73,8 @@ Para mostrar como seria un articulo del BLOG, se creo una pagina adicional,
 la cual puede verse al hacer click en el primer enlace (o articulo) del HOME. 
 El articulo que puede verse, es el que se titula: 
 "Trading Psychology: A Non-Cynical Primer (trading's affected by psychology)"
+Al mismo se puede acceder haciendo click en el titulo del articulo o en la imagen
+del mismo
 
 
 
@@ -87,6 +89,11 @@ e imagenes, puede convertirse en un BLOG de cualquier otra tematica.
 Agradecer a todo el equipo de Coder House, haciendo especial hincapie en mi Profesor:
 Santiago Acosta y en mi tutor particular: Pedro, sin los cuales el desarrollo de este site
 no podria haber sido posible. A ellos todo mi agradecimiento.
+
+
+
+
+@JOSE LOPEZ RISSO - 2022
 
 
 
