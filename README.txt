@@ -77,15 +77,16 @@ El articulo que puede verse, es el que se titula:
 
 
 ******************************************
-ULTIMAS CONSIDERACIONES
+ULTIMAS CONSIDERACIONES & AGRADECIMIENTOS
 ******************************************
 
 Si bien el BLOG esta aplicado y oriendtado al Trading, el sitio es totalmente flexible
 para ser utilizado con cualquier otro tipo de contendio. Cambiando los textos
 e imagenes, puede convertirse en un BLOG de cualquier otra tematica.
 
-
-
+Agradecer a todo el equipo de Coder House, haciendo especial hincapie en mi Profesor:
+Santiago Acosta y en mi tutor particular: Pedro, sin los cuales el desarrollo de este site
+no podria haber sido posible. A ellos todo mi agradecimiento.
 
 
 
