@@ -18,7 +18,7 @@ $breakpoints: (
 }
 
 /* SET FAV BACKGROUND COLOR */
-$media-list:facebook,twitter,google,instagram;
+$media-list:facebook,twitter,whatsapp,instagram;
 
 @mixin set-fav-bg-color($my-list, $color){
     @each $item in $my-list{

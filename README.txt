@@ -51,7 +51,7 @@ cambios. Ejemplo de las llamadas a estos mixins se pueden encontrar en _footer, 
 Se las llama mediante un include y una vez llamado el mixin se aplica el codigo especifico para esa seccion).  Se definio 
 tambien un ultimo mixin llamado set-fav-bg-color, el cual esta aplicado en el archivo _footer. Este mixin hace uso de una 
 lista, la cual se recorre para crear unas clases, y a cada una de esas clases se le aplica un  color.
-
+-Se utilizo un enlace a whatsapp con un mensaje de contacto predeterminado (en el Footer)
 
 
 ******************************************
