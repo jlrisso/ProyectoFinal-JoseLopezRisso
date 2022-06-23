@@ -45,6 +45,7 @@ TECNOLOGÍAS APLICADAS Y/O UTILIZADAS
 -Se utilizaron -en algunos casos- unidades EMs
 -SASS (con diferentes partials)
 -variables SASS
+-Uso extensivo de GIT durante todo el proyecto.
 -MIXINs para los media querys (Se definieron dos mixins para los media querys (tablet & mobile). Estos mixins toman un ancho 
 (width) minimo y un ancho (width) maximo, y en base a esos parametros, que se toman de la variable breakpoints, aplican los 
 cambios. Ejemplo de las llamadas a estos mixins se pueden encontrar en _footer, _aside,  _containers, y algunos archivos más. 
