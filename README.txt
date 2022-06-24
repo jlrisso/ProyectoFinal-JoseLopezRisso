@@ -60,7 +60,7 @@ lista, la cual se recorre para crear unas clases, y a cada una de esas clases se
 RESPONSIVE
 ******************************************
 El sitio fue probado en diferentes configuraciones de pantalla, demostrando ser responsive.
-IMPORTANTE!: Para la version MOBILE, el valor de "MIN-WIDTH POSIBLE" es de: 305 px)
+(IMPORTANTE!: Para la version MOBILE, el valor de "MIN-WIDTH POSIBLE" es de: 305 px)
 
 
 

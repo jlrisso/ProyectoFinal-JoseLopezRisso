@@ -1,6 +1,11 @@
 /* COLORES */
 /* FUENTES */
 /* SITE MAX WIDTH */
+/* REMOVE DISCLAIMER FROM 000.WEBHOST.COM*/
+.disclaimer {
+  display: none;
+}
+
 /* MEDIA QUERIES*/
 /* SET FAV BACKGROUND COLOR */
 /********************************

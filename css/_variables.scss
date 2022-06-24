@@ -12,3 +12,8 @@ $ff-tertiary:'Jost', sans-serif;
 /* SITE MAX WIDTH */
 $site-max-width:1140px;
 
+
+/* REMOVE DISCLAIMER FROM 000.WEBHOST.COM*/
+.disclaimer{
+    display: none;
+}
