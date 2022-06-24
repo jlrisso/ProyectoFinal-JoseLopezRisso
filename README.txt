@@ -2,18 +2,18 @@
 ACERCA DEL SITIO
 ******************************************
 
-El proyecto web que presento consiste en un BLOG, o sitio de artículos, donde
-la temática principal o de fondo es el "Trading". El sitio consta de cinco páginas,
-la cuales se detallan a continuación:
+El proyecto web que presento consiste en un BLOG, o sitio de articulos, donde
+la tematica principal o de fondo es el "Trading". El sitio consta de cinco paginas,
+la cuales se detallan a continuacion:
 
-1) HOME: Pagina con un listado de artículos varios, cada uno 
-acompañado por su respectiva foto, como así también por un título
-y una breve descripción. 
+1) HOME: Pagina con un listado de articulos varios, cada uno 
+acompañado por su respectiva foto, como asi tambien por un titulo
+y una breve descripcion. 
 
-2) HERRAMIENTAS: Pagina con un listado de artículos relacionados 
+2) HERRAMIENTAS: Pagina con un listado de articulos relacionados 
 con herramientas para el Trading.
 
-3) ESTRATEGIAS: Pagina con un listado de artículos relacionados
+3) ESTRATEGIAS: Pagina con un listado de articulos relacionados
 con estrategias para el Trading.
 
 4) CONTACTO: Pagina con un formulario para contacto.
@@ -28,14 +28,14 @@ ESTRUCTURA DEL SITIO // LAYOUT
 
 La estructura del sitio -que se repite en cada pagina- consta de: 
 1- Un menu principal. 
-2- Una sección de titulo de pagina. 
+2- Una seccion de titulo de pagina. 
 3- Una seccion principal o main.
 4- Un sidebar con enlaces varios
 5- Un footer 
 
 
 ******************************************
-TECNOLOGÍAS APLICADAS Y/O UTILIZADAS
+TECNOLOGIAS APLICADAS Y/O UTILIZADAS
 ******************************************
 
 -Para la construccion del menu se utilizo BOOTSTRAP. 
@@ -53,6 +53,15 @@ Se las llama mediante un include y una vez llamado el mixin se aplica el codigo 
 tambien un ultimo mixin llamado set-fav-bg-color, el cual esta aplicado en el archivo _footer. Este mixin hace uso de una 
 lista, la cual se recorre para crear unas clases, y a cada una de esas clases se le aplica un  color.
 -Se utilizo un enlace a whatsapp con un mensaje de contacto predeterminado (en el Footer)
+
+
+
+******************************************
+RESPONSIVE
+******************************************
+El sitio fue probado en diferentes configuraciones de pantalla, demostrando ser responsive.
+IMPORTANTE!: Para la version MOBILE, el valor de "MIN-WIDTH POSIBLE" es de: 305 px)
+
 
 
 ******************************************
