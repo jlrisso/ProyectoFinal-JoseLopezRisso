@@ -117,6 +117,12 @@ MENU CON BOOTSTRAP
   background-color: #FFD117;
 }
 
+/* New Feature*/
+.navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 /********************************
 CAJA PARA SUBSCRIBIRSE EN EL INDEX
 *********************************/
@@ -363,6 +369,7 @@ ARTICULOS
 @media (min-width: 300px) and (max-width: 734px) {
   #article-list .article-container .figure-container img {
     width: 100%;
+    height: auto;
   }
 }
 
@@ -832,6 +839,14 @@ FORMULARIO DE CONTACTO
   -webkit-box-shadow: 0 0 8px #88D5E9;
           box-shadow: 0 0 8px #88D5E9;
   border: 1px solid #88D5E9;
+}
+
+@media (min-width: 300px) and (max-width: 734px) {
+  #formulario .form-style li input[type=text],
+  #formulario .form-style li input[type=email],
+  #formulario .form-style li textarea {
+    margin-bottom: 1em;
+  }
 }
 
 #formulario .form-style li input[type=submit] {

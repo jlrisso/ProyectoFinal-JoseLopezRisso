@@ -56,6 +56,10 @@ FORMULARIO DE CONTACTO
                     border: 1px solid #88D5E9;
                 }
 
+                @include mobile{
+                    margin-bottom: 1em;
+                }
+
 
             }
             /* Boton Submit*/
@@ -70,6 +74,7 @@ FORMULARIO DE CONTACTO
                     box-shadow: none;
                 }
             }
+
         }
 
     }
